@@ -1,0 +1,83 @@
+*{
+    margin: 6px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 229, 229);
+    padding: 0;
+}
+.nav li{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    color: black;
+}
+
+
+/*Cv Head*/
+.cv-head{
+    text-align: center;
+}
+.cv-head h1 {
+    color: rgb(248, 55, 94);
+    text-decoration: underline;
+}
+
+/*Cv Profile summary*/
+.profile-summary h2{
+    text-align: center;
+    color: rgb(248, 55, 94);
+}
+
+/*career*/
+.career h2{
+    text-align: center;
+    color: rgb(248, 55, 94);
+}
+
+/*strength*/
+.strength h2{
+    text-align: center;
+    color: rgb(248, 55, 94);
+}
+.strength li {
+    list-style:square;
+}
+
+/*education*/
+.edu h2{
+    text-align: center;
+    color: rgb(248, 55, 94);
+}
+.edu-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*work-exp*/
+.work-exp h2{
+    text-align: center;
+    color: rgb(248, 55, 94);
+}
+.work-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*voluntary*/
+.volun h2{
+    text-align: center;
+    color: rgb(248, 55, 94);
+}
+
+/*reference*/
+.ref h2{
+    color: rgb(248, 55, 94);
